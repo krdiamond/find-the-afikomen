@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+}
+
+img{
+    width: 100%;
+}
+
+.living-room {
+    position: absolute;
+    z-index: -2;
+}
+
+.matza {
+    display: none;
+    width: 100px;
+    position: absolute;
+    top: -100px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+  }
+  .grid-item {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 22%;
+    position: relative;
+ 
+  }
+
+  .text {
+      display: none;
+      position: absolute;
+      border: 3px solid black;
+      top: 30%;
+      left: 30%;
+      width: 30%;
+      background: white;
+  }
+
+  .pointer {
+    cursor: pointer;
+  }
+
