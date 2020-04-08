@@ -6,12 +6,15 @@ img{
     width: 100%;
 }
 
+
 .living-room {
-    position: absolute;
-    z-index: -2;
+    position: relative;
+    width: 1200px;
+    height: 760px;
+    margin: auto;
 }
 
-.matza {
+.matzo {
     display: none;
     width: 100px;
     position: absolute;
@@ -21,11 +24,14 @@ img{
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
+    position: absolute;
+    width: 100%;
+    top:0;
   }
   .grid-item {
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 22%;
+    padding: 18%;
     position: relative;
+    color: transparent;
  
   }
 
@@ -33,8 +39,8 @@ img{
       display: none;
       position: absolute;
       border: 3px solid black;
-      top: 30%;
-      left: 30%;
+      top: 10%;
+      left: 10%;
       width: 30%;
       background: white;
   }
