@@ -12,6 +12,16 @@ document.getElementById('28').addEventListener("click", function() {
     document.getElementById("text").style.display='block';
     document.getElementById("text").innerHTML = "<p>Getting warmer... </p>"
   });
+  
+  document.getElementById('23').addEventListener("click", function() {
+    document.getElementById("text").style.display='block';
+    document.getElementById("text").innerHTML = "<p> Not in here </p>"
+  });
+
+  document.getElementById('30').addEventListener("click", function() {
+    document.getElementById("text").style.display='block';
+    document.getElementById("text").innerHTML = "<p> Not in here </p>"
+  });
 
   document.getElementById('42').addEventListener("click", function() {
     document.getElementById("text").style.display='block';
